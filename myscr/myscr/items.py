@@ -11,4 +11,7 @@ import scrapy
 class MyscrItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    href = scrapy.Field()
+    con = scrapy.Field()
+
+
